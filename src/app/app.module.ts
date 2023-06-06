@@ -14,6 +14,9 @@ import { FSComponent } from './pDetails/fs/fs.component';
 import { DMComponent } from './pDetails/dm/dm.component';
 import { DAComponent } from './pDetails/da/da.component';
 import { DVComponent } from './pDetails/dv/dv.component';
+import { VAAComponent } from './proDetails/vaa/vaa.component';
+import { SMProposalComponent } from './proDetails/smproposal/smproposal.component';
+import { PRPlanComponent } from './proDetails/prplan/prplan.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { DVComponent } from './pDetails/dv/dv.component';
     FSComponent,
     DMComponent,
     DAComponent,
-    DVComponent
+    DVComponent,
+    VAAComponent,
+    SMProposalComponent,
+    PRPlanComponent
   ],
   imports: [
     BrowserModule,

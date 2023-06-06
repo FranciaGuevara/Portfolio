@@ -8,6 +8,9 @@ import { FSComponent } from './pDetails/fs/fs.component';
 import { DMComponent } from './pDetails/dm/dm.component';
 import { DAComponent } from './pDetails/da/da.component';
 import { DVComponent } from './pDetails/dv/dv.component';
+import { VAAComponent } from './proDetails/vaa/vaa.component';
+import { SMProposalComponent } from './proDetails/smproposal/smproposal.component';
+import { PRPlanComponent } from './proDetails/prplan/prplan.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -17,7 +20,10 @@ const routes: Routes = [
   {path: 'FullStack', component:FSComponent},
   {path: 'DataManage', component:DMComponent},
   {path: 'DataAnalysis', component:DAComponent},
-  {path: 'DataVis', component:DVComponent}
+  {path: 'DataVis', component:DVComponent},
+  {path: 'VAA', component:VAAComponent},
+  {path: 'SMProposal', component:SMProposalComponent},
+  {path: 'PRPlan', component:PRPlanComponent}
 ];
 
 @NgModule({

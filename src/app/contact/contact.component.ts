@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
   
   submitForm() {
     const form = document.getElementById('google') as HTMLFormElement;
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxRwaFPohbowy_G8l_wCYkA1OeoD7Frl8SOz_p4bx6F2ZkpC2fR55zvaYT6oF4b8HG2/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzEk0kv8SOY6WMl93-rv0v-Gpc5uWLuruhdMkDCV6KMCg9KU4qvIkQ1K0UsqSl1yXsv/exec'
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => this.response="Message sent!")
