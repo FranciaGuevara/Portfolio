@@ -1,4 +1,4 @@
-video {
+video, img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -21,9 +21,71 @@ h3 {
     color: var(--third-color)
 }
 
+.title {
+    font-size: 48px;
+    color: var(--third-color)
+}
+
 ul {
     list-style-position: inside;
     margin: 0;
     padding: 0;
 }
 
+.r button {
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.r button p {
+    display:inline-block;
+    font-size: 40px;
+    color: var(--third-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    &:hover {
+        color: var(--secondary-color)
+    }
+}
+
+.i {
+    color: var(--secondary-color)
+}
+
+.s {
+    display:inline-block;
+    color: var(--third-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    &:hover {
+        color: var(--secondary-color)
+    }
+}
+
+.modal-content {
+    background-color: var(--primary-color);
+
+    .modal-body .resume {
+        height: 70vh;
+        embed {
+           height: 100%;
+           width: 100%;
+        }
+    }
+    .close {
+        background-color: var(--secondary-color);
+        color: var(--primary-color)
+    }
+    .download {
+        background-color: var(--third-color);
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+    }
+}

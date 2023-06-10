@@ -27,7 +27,7 @@ ul {
     padding: 0;
 }
 
-button p {
+.b p {
     display:inline-block;
     color: var(--primary-color);
     text-decoration: none;
@@ -37,6 +37,25 @@ button p {
     margin: 0;
     &:hover {
         background-color: var(--secondary-color);
+    }
+}
+
+.r button {
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.r button p {
+    display:inline-block;
+    font-size: 40px;
+    color: var(--third-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    &:hover {
+        color: var(--secondary-color)
     }
 }
 
